@@ -1,0 +1,105 @@
+# Environment Variables
+.env
+.env.local
+.env.*.local
+*.pem
+
+# Python Virtual Environment
+venv/
+env/
+ENV/
+backend/venv/
+backend/env/
+
+# Python Cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Node Modules and Build
+node_modules/
+frontend/node_modules/
+npm-debug.log
+yarn-error.log
+dist/
+build/
+
+# IDE and Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+*.sublime-project
+*.sublime-workspace
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.hypothesis/
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+tickets.db
+
+# Temporary Files
+*.tmp
+*.temp
+*.log
+*.bak
+*.backup
+
+# Large unnecessary documentation files
+*.docx
+*.xlsx
+*.pptx
+*.pdf
+
+# Test reports (keep only if needed, otherwise remove)
+test_*.py
+*_test_report.py
+*_test_report.md
+
+# Build outputs
+*.o
+*.a
+*.lo
+
+# OS specific
+.DS_Store
+Thumbs.db
+.directory
+
+# Git
+.git/
+.gitmodules
+
+# Misc
+.cache/
+.eslintignore
+.prettierignore
